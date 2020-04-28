@@ -1,3 +1,5 @@
+vsp = vsp + grv;
+
 
 if (place_meeting(x+hsp,y,o_wall))
 {
@@ -5,11 +7,9 @@ if (place_meeting(x+hsp,y,o_wall))
 	{
 		x = x + sign(hsp);
 	}
-	hsp = 0;
+	hsp = -hsp;
 }
 x = x + hsp
-
-vsp = vsp + grv
 
 if (place_meeting(x,y+vsp,o_wall))
 {

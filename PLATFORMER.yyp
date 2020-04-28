@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "2077c092-8dba-4f3b-ade8-8aadc1323f78",
+            "Value": {
+                "id": "6afde5a6-7dc9-4349-a34a-b0033d0b18c1",
+                "resourcePath": "objects\\o_enemyD\\o_enemyD.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2812e483-8514-4f93-9f12-e02c0a8a1fe8",
             "Value": {
                 "id": "45efad57-9db4-43c5-b64a-c81be7e2982b",
@@ -228,6 +236,14 @@
                 "id": "073860b7-6a67-4d4f-a19c-0337070fc7db",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d45b14df-2577-4245-95d0-02cf98adc2d5",
+            "Value": {
+                "id": "8afa5d62-588a-4340-ada4-f1160c5dde75",
+                "resourcePath": "shaders\\sh_white\\sh_white.yy",
+                "resourceType": "GMShader"
             }
         },
         {

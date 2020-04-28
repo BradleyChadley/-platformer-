@@ -10,7 +10,7 @@ recoil = max(0,recoil - 1);
 if (mouse_check_button(mb_left)) and (firing_delay < 0)
 {
 	recoil = 4;
-	firing_delay = 6;
+	firing_delay = 60;
 	with (instance_create_layer(x,y,"Bullet",o_bullet))
 	{
 		speed = 25;
@@ -19,6 +19,7 @@ if (mouse_check_button(mb_left)) and (firing_delay < 0)
 	}
 }
 
+if (firing_delay < 15) image_index = 0 else image_index = 1;
 x = x - lengthdir_x(recoil,image_angle);
 y = y - lengthdir_y(recoil,image_angle);
 
