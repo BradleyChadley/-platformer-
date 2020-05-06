@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1a15ac41-4f6f-4d93-97ec-10df345c645c",
+            "Value": {
+                "id": "9bdf836e-7168-4dd0-9a38-08903df5e55f",
+                "resourcePath": "sprites\\s_crosshair\\s_crosshair.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1bae80d5-7149-48ca-9de0-d0d6b36bbe30",
             "Value": {
                 "id": "7f602f81-072e-46bb-9f8b-6304f7c80208",
@@ -164,6 +172,14 @@
                 "id": "de57fdfa-30bb-4a3c-b57c-d2f27b87589f",
                 "resourcePath": "sprites\\s_gun\\s_gun.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "90e5a1e6-38f2-44e1-99ab-b0bf6ba67dfc",
+            "Value": {
+                "id": "51e34794-589b-413f-92e7-33690cababef",
+                "resourcePath": "objects\\o_crosshair\\o_crosshair.yy",
+                "resourceType": "GMObject"
             }
         },
         {

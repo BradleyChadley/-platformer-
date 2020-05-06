@@ -10,6 +10,7 @@ if (done == 0)
 		}
 		hsp = 0;
 	}
+	if (hsp > 0) image_xscale = 1  else image_xscale = -1;
 	x = x + hsp;
 
 	if (place_meeting(x,y+vsp,o_wall))
@@ -23,6 +24,7 @@ if (done == 0)
 			y = y + sign(vsp);
 		}
 		vsp = 0;
+		image_index = 1;
 	}
 	y = y + vsp
 }	
