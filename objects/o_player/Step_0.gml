@@ -15,14 +15,25 @@ if (place_meeting(x+hsp,y,o_wall))
 	}
 	hsp = 0;
 }
-x = x + hsp
+x = x + hsp;
 
-vsp = vsp + grv
+vsp = vsp + grv;
 
 if (place_meeting(x,y+1,o_wall)) and (key_jump)
 {
-	vsp = -5
+	vsp = -5;
 	
+}
+
+if (dj == 1) and (keyboard_check_pressed(vk_space)) and (!place_meeting(x,y+1,o_wall))
+{
+	vsp = -3;
+	dj = 0;
+}
+
+if (place_meeting(x,y+1,o_wall))
+{
+	dj = 1;
 }
 
 if (place_meeting(x,y+vsp,o_wall))
