@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "88da2a41-f060-45af-be32-20c029c988b3",
+            "Value": {
+                "id": "682cedcc-c881-454a-8445-1b03e4d6e801",
+                "resourcePath": "objects\\object9\\object9.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8a7453e0-57bc-4dca-8bfc-27975d340bb9",
             "Value": {
                 "id": "de57fdfa-30bb-4a3c-b57c-d2f27b87589f",
@@ -199,11 +207,27 @@
             }
         },
         {
+            "Key": "8e85b8c4-4715-4626-88bd-867b3b4e216b",
+            "Value": {
+                "id": "76fe0abf-9df2-4a71-8229-0ca7c5f03e0b",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "90e5a1e6-38f2-44e1-99ab-b0bf6ba67dfc",
             "Value": {
                 "id": "51e34794-589b-413f-92e7-33690cababef",
                 "resourcePath": "objects\\o_crosshair\\o_crosshair.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "92d424b6-8125-4999-8104-ca73b364d5bf",
+            "Value": {
+                "id": "e3fe2f37-b8b2-491e-ae99-e4620abf67c1",
+                "resourcePath": "sprites\\s_lava\\s_lava.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -259,6 +283,14 @@
             "Value": {
                 "id": "2a16758e-eb51-4cf4-8dfa-82ab06ba1eaa",
                 "resourcePath": "objects\\o_gun\\o_gun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c53ea2f9-5db3-43db-b89c-98b00f0ab839",
+            "Value": {
+                "id": "c2ccb8db-cc35-446c-8381-0f602ab387bb",
+                "resourcePath": "objects\\o_lava\\o_lava.yy",
                 "resourceType": "GMObject"
             }
         },
