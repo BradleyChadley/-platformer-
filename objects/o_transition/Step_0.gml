@@ -8,31 +8,33 @@ if (mode != TRANS_MODE.OFF)
 	}
 	else
 	{
-			percent = min(1, percent + max(((1 - percent)/10),0.005));
+			percent = min(1.1, percent + max(((1.1 - percent)/10),0.005));
 	}
 
-	if (percent == 1) or (percent == 0)
+	if (percent == 1.1) or (percent == 0)
 	{
 		switch(mode)
 		{
 			case TRANS_MODE.INTRO:
 			{
+				mode = TRANS_MODE.OFF;
 				break;
 			}
 			case TRANS_MODE.NEXT:
 			{
-				break;
-			}
-			case TRANS_MODE.OFF:
-			{
+				mode = TRANS_MODE.GOTO;
+				room_goto_next();
 				break;
 			}
 			case TRANS_MODE.GOTO:
 			{
+				mode = TRANS_MODE.INTRO;
+				room_goto(target);
 				break;
 			}
 			case TRANS_MODE.RESTART:
 			{
+				game_restart();
 				break;
 			}
 		}

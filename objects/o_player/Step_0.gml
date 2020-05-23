@@ -1,11 +1,15 @@
 // Movement
-key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
-key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_up) or keyboard_check(vk_space);
+if (hascontrol)
+{
+	key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
+	key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
+	key_jump = keyboard_check_pressed(vk_up) or keyboard_check(vk_space);	
+	var move = key_right - key_left;
 
-var move = key_right - key_left;
+	hsp = move * walkspd;
+}
+else  key_left = 0;   key_right = 0;
 
-hsp = move * walkspd;
 
 if (place_meeting(x+hsp,y,o_wall))
 {

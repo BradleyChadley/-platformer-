@@ -3,3 +3,4 @@ vsp = 0;
 grv = 0.2;
 walkspd = 4;
 dj = 1;
+hascontrol = true;
