@@ -7,7 +7,7 @@ view_h_half = camera_get_view_height(cam) * 0.5;
 xTo = x;
 yTo = y;
 
-shake_length = 60;
+shake_length = 10;
 shake_magnitude = 4;
 shake_remain = 4;
 buff = 32;

@@ -6,8 +6,8 @@ if (instance_exists(follow))
 	yTo = follow.y;
 }
 
-x += (xTo - x) / 25;
-y += (yTo - y) / 25;
+x += (xTo - x) / 30
+y += (yTo - y) / 30
 
 
 x = clamp(x,view_w_half + buff, (room_width +16) - view_w_half - buff);
