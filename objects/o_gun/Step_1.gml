@@ -20,8 +20,11 @@ if (mouse_check_button(mb_left)) and (firing_delay < 0)
 	}
 }
 
-if (firing_delay < 15) image_index = 0 else image_index = 1;
+if (firing_delay < 15)  image_index = 0  else image_index = 1;
+	
+
 x = x - lengthdir_x(recoil,image_angle);
 y = y - lengthdir_y(recoil,image_angle);
 
 if (image_angle > 90) and (image_angle < 270)  image_yscale = -1 else image_yscale = 1;
+
