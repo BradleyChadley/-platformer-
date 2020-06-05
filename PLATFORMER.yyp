@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1c76678d-c380-42be-a04e-29268e01154a",
+            "Value": {
+                "id": "41f90b13-8711-4e05-a884-2ebcb8564a83",
+                "resourcePath": "sprites\\sprite16\\sprite16.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2077c092-8dba-4f3b-ade8-8aadc1323f78",
             "Value": {
                 "id": "6afde5a6-7dc9-4349-a34a-b0033d0b18c1",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "7308cd46-f508-47be-81e2-cb2ecf6236ae",
+            "Value": {
+                "id": "2a1f02d7-e1f3-4b71-bc8b-1cd6934b3234",
+                "resourcePath": "sprites\\s_clouds\\s_clouds.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7450bfc6-77e3-418a-a69a-dd9cf18776f0",
             "Value": {
                 "id": "9e58bd39-637a-4718-b14d-c4141b05a399",
@@ -300,6 +316,14 @@
                 "id": "2a16758e-eb51-4cf4-8dfa-82ab06ba1eaa",
                 "resourcePath": "objects\\o_gun\\o_gun.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a8bc7850-a31d-4045-98f6-2c781e6c5a14",
+            "Value": {
+                "id": "9554279f-933a-4ea0-bb51-cbc1288209af",
+                "resourcePath": "sprites\\s_mountain\\s_mountain.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
